@@ -1,0 +1,148 @@
+/* header start */
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.intropage a{
+  color: #FFFFFF;
+  text-decoration: none;
+  margin: 5px; 
+  font-size: 23px;
+  font-family: cursive;
+}
+
+.wordabout a{
+  color: #FFFFFF;
+  text-transform: uppercase;
+  font-size: 29px;
+  text-align: left;
+  text-decoration: none;
+  font-family: cursive;
+}
+
+header{
+  background: linear-gradient(90deg, rgba(255,136,0,1) 24%, rgba(255,79,0) 45%);
+  padding: 30px;
+  justify-content: space-between; 
+}
+
+.intropage a:hover{
+  color: black;
+  text-decoration:underline;
+}
+  
+.wordabout a:hover{
+  color: black;
+  text-decoration:underline;
+}
+/* header end */
+
+/* head start */
+.containerProjectNames{
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+}
+
+.nameImg1 {
+  margin-left: 200px; 
+  color: #808080;
+}
+
+.nameImg2 {
+  margin-right: 200px; 
+  color: #808080;
+}
+/* head end */
+/* body start */
+.aboutMe h1{
+  font-size: 29px;
+  font-family: sans-serif;
+  color: #808080;
+}
+.aboutMe p{
+  font-size: 21.5px;
+  font-family: sans-serif;
+  color: 	#808080;
+}
+p {
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+.containerimg{
+  display: flex;
+}
+
+.aboutMe {
+  flex: 1; 
+  margin-left: 480px;
+}
+
+.projects_images {
+  display: flex;
+}
+
+.projects_images img{
+  margin-left: 10px;
+}
+
+.projects_images h2{
+  padding: 1;
+}
+
+.image2{
+  margin-left: 345px;
+}
+
+body{
+  background: linear-gradient(90deg, rgba(0,235,255,1) 44%, rgba(0,191,255) 55%);
+}
+/* body end */
+/* footer start */
+footer{
+  background: linear-gradient(90deg, rgba(255,136,0,1) 24%, rgba(255,79,0) 45%);
+  margin-top: 305px;
+  width: 100%;
+  padding: 0px;
+}
+
+.social-links a:hover{
+  color: black;
+  background-color: #00ebff;
+  }
+  
+.social-links a{
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(255,255,255,0.2);
+  margin:0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #ffffff;
+  transition: all 0.5s ease;
+}
+
+.footer1{
+  margin-left: 2515px;
+  color: #FFFFFF;
+}
+
+.footer1 h3{
+  color: #FFFFFF;
+  margin-left: 0px;
+  margin-bottom: 20px;
+  font-size: 27px;
+  font-family: cursive;
+}
+
+.containerfooter{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* footer end */
