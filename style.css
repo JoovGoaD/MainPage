@@ -77,7 +77,7 @@ p {
 
 .aboutMe {
   flex: 1; 
-  margin-left: 480px;
+  margin-left: 220px;
 }
 
 .projects_images {
@@ -93,7 +93,7 @@ p {
 }
 
 .image2{
-  margin-left: 345px;
+  margin-left: 205px;
 }
 
 body{
@@ -127,7 +127,7 @@ footer{
 }
 
 .footer1{
-  margin-left: 2515px;
+  margin-left: 2270px;
   color: #FFFFFF;
 }
 
